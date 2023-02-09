@@ -95,9 +95,27 @@ switch(number){
         break;
     case 3:
         console.log("Number is 3!");
-        // break;
+        break;
     default:
         console.log("Number is different from 1,2,3!");   
 }
 
+var expr = 'papayas';
+switch (expr) {
+    case 'oranges':
+        console.log('oranges');
+        break;
+    case 'papayas':
+        console.log('papayas');
+        break;
+    default:
+        console.log(`sorry, we are out of ${expr}.`);
+        break;
+}
 
+// template literals
+
+var myName = 'Sneha';
+var myCity = 'Mangaon';
+console.log("My name is",myName, "and i'm from mangaon!")
+console.log(`my name is ${myName}  and i'm from ${myCity}!`)
